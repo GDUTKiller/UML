@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-19T09:07:04.268Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="uNrC9ikoRi-fyQaGRXAs" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-19T09:30:23.840Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="0DWMDe3ZS_1WMYzIMmeD" version="12.4.3" type="github" pages="1">
   <diagram id="pSkdtzrRdUmOVZ_U7MSh" name="Page-1">
     <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,14 +18,14 @@
         <mxCell id="wHLzyyIEOGS48JCNeTjd-5" value="- userId: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wHLzyyIEOGS48JCNeTjd-1">
           <mxGeometry y="78" width="160" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="wHLzyyIEOGS48JCNeTjd-6" value="- num: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wHLzyyIEOGS48JCNeTjd-1">
+        <mxCell id="wHLzyyIEOGS48JCNeTjd-6" value="- num: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wHLzyyIEOGS48JCNeTjd-1">
           <mxGeometry y="104" width="160" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="wHLzyyIEOGS48JCNeTjd-12" value="记录用户在某个租户的某场活动的&lt;font color=&quot;#cc0000&quot;&gt;游戏次数&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
-          <mxGeometry x="1117" y="960" width="110" height="70" as="geometry"/>
+        <mxCell id="wHLzyyIEOGS48JCNeTjd-12" value="记录用户在某个租户的某场活动的&lt;font color=&quot;#cc0000&quot;&gt;可抽奖次数&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
+          <mxGeometry x="1117" y="964" width="110" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="wHLzyyIEOGS48JCNeTjd-23" value="GameDrawNumReward" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="890" y="1150" width="160" height="182" as="geometry">
+          <mxGeometry x="890" y="1160" width="160" height="182" as="geometry">
             <mxRectangle x="200" y="160" width="120" height="26" as="alternateBounds"/>
           </mxGeometry>
         </mxCell>
@@ -47,8 +47,8 @@
         <mxCell id="wHLzyyIEOGS48JCNeTjd-31" value="- num: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wHLzyyIEOGS48JCNeTjd-23">
           <mxGeometry y="156" width="160" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="wHLzyyIEOGS48JCNeTjd-28" value="记录用户在某个租户的某场活动获得的游戏次数&lt;font color=&quot;#cc0000&quot;&gt;奖励&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="1154" width="120" height="70" as="geometry"/>
+        <mxCell id="wHLzyyIEOGS48JCNeTjd-28" value="记录用户在某个租户的某场活动获得的&lt;font color=&quot;#ff0000&quot;&gt;可抽奖次数奖励&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
+          <mxGeometry x="1117" y="1164" width="120" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="wHLzyyIEOGS48JCNeTjd-32" value="GameDrawNumRewardConfig&#xa;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="870" y="1390" width="190" height="182" as="geometry">
@@ -73,7 +73,7 @@
         <mxCell id="wHLzyyIEOGS48JCNeTjd-38" value="- dayLimit: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wHLzyyIEOGS48JCNeTjd-32">
           <mxGeometry y="156" width="190" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="wHLzyyIEOGS48JCNeTjd-39" value="记录某个租户的某场活动的游戏次数奖励&lt;font color=&quot;#cc0000&quot;&gt;配置&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
+        <mxCell id="wHLzyyIEOGS48JCNeTjd-39" value="记录某个租户的某场活动的可抽奖次数奖励&lt;font color=&quot;#cc0000&quot;&gt;配置&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
           <mxGeometry x="1130" y="1370" width="120" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="wHLzyyIEOGS48JCNeTjd-48" value="GamePlayNumDao&#xa;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
@@ -83,7 +83,7 @@
           <mxGeometry x="590" y="300" width="160" height="52" as="geometry"/>
         </mxCell>
         <mxCell id="wHLzyyIEOGS48JCNeTjd-53" value="GamePlayNumRewardConfigDao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="540" width="190" height="60" as="geometry"/>
+          <mxGeometry x="600" y="540" width="200" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="wHLzyyIEOGS48JCNeTjd-54" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.011;exitY=0.077;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;exitPerimeter=0;" edge="1" parent="1" source="wHLzyyIEOGS48JCNeTjd-32" target="wHLzyyIEOGS48JCNeTjd-39">
           <mxGeometry relative="1" as="geometry"/>
@@ -126,7 +126,7 @@
         <mxCell id="wHLzyyIEOGS48JCNeTjd-78" value="- userId: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wHLzyyIEOGS48JCNeTjd-75">
           <mxGeometry y="78" width="160" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="wHLzyyIEOGS48JCNeTjd-79" value="- num: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wHLzyyIEOGS48JCNeTjd-75">
+        <mxCell id="wHLzyyIEOGS48JCNeTjd-79" value="- num: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wHLzyyIEOGS48JCNeTjd-75">
           <mxGeometry y="104" width="160" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="wHLzyyIEOGS48JCNeTjd-80" value="记录用户在某个租户的某场活动的&lt;font color=&quot;#cc0000&quot;&gt;游戏可玩次数&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
@@ -192,6 +192,30 @@
         </mxCell>
         <mxCell id="wHLzyyIEOGS48JCNeTjd-99" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" source="wHLzyyIEOGS48JCNeTjd-76" target="wHLzyyIEOGS48JCNeTjd-80" parent="1">
           <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wHLzyyIEOGS48JCNeTjd-100" value="GameDrawNumDao&#xa;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="585" y="956" width="160" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="wHLzyyIEOGS48JCNeTjd-101" value="GameDrawNumRewardDao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="585" y="1120" width="160" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="wHLzyyIEOGS48JCNeTjd-102" value="GameDrawNumRewardConfigDao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1386" width="200" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="wHLzyyIEOGS48JCNeTjd-103" value="IGameDrawNumService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1090" width="380" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="wHLzyyIEOGS48JCNeTjd-104" value="+ addDrawRewardNum(GameDrawRewardAddQuery): Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wHLzyyIEOGS48JCNeTjd-103">
+          <mxGeometry y="26" width="380" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="wHLzyyIEOGS48JCNeTjd-105" value="+ getDrawNumRewardConfig(GameDrawRewardNumQuery: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wHLzyyIEOGS48JCNeTjd-103">
+          <mxGeometry y="52" width="380" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="wHLzyyIEOGS48JCNeTjd-106" value="+ getNum(orgId, tableId, userId): Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wHLzyyIEOGS48JCNeTjd-103">
+          <mxGeometry y="78" width="380" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="wHLzyyIEOGS48JCNeTjd-107" value="+ decrease(GameDrawNumDecreaseQuery): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wHLzyyIEOGS48JCNeTjd-103">
+          <mxGeometry y="104" width="380" height="26" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
