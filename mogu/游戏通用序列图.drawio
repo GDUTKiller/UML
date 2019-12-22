@@ -1,1 +1,58 @@
-<mxfile host="www.draw.io" modified="2019-12-19T09:48:24.325Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="12.4.3" etag="AZhWY196lVbxoufyovQk" type="github" pages="1"><diagram id="CuHBmpAUFITdy2Dhoh9g">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-22T08:41:52.692Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="yrJaddYdSNECQRUP-zvW" version="12.4.3" type="github" pages="1">
+  <diagram id="CuHBmpAUFITdy2Dhoh9g" name="第 1 页">
+    <mxGraphModel dx="892" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="cQni9ctdwEXNqDFrvuiN-1" value="" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;labelBackgroundColor=#ffffff;outlineConnect=0;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="40" height="470" as="geometry"/>
+        </mxCell>
+        <mxCell id="cQni9ctdwEXNqDFrvuiN-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;comic=1;" vertex="1" parent="cQni9ctdwEXNqDFrvuiN-1">
+          <mxGeometry x="15" y="90" width="10" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="cQni9ctdwEXNqDFrvuiN-3" value="" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;labelBackgroundColor=#ffffff;outlineConnect=0;comic=1;rounded=0;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="70" width="40" height="470" as="geometry"/>
+        </mxCell>
+        <mxCell id="cQni9ctdwEXNqDFrvuiN-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;comic=1;" vertex="1" parent="cQni9ctdwEXNqDFrvuiN-3">
+          <mxGeometry x="15" y="180" width="10" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="cQni9ctdwEXNqDFrvuiN-4" value="" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;labelBackgroundColor=#ffffff;outlineConnect=0;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="40" height="470" as="geometry"/>
+        </mxCell>
+        <mxCell id="cQni9ctdwEXNqDFrvuiN-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;comic=1;" vertex="1" parent="cQni9ctdwEXNqDFrvuiN-4">
+          <mxGeometry x="15" y="70" width="10" height="330" as="geometry"/>
+        </mxCell>
+        <mxCell id="cQni9ctdwEXNqDFrvuiN-6" value="" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;labelBackgroundColor=#ffffff;outlineConnect=0;comic=1;rounded=0;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="70" width="40" height="470" as="geometry"/>
+        </mxCell>
+        <mxCell id="cQni9ctdwEXNqDFrvuiN-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;comic=1;" vertex="1" parent="cQni9ctdwEXNqDFrvuiN-6">
+          <mxGeometry x="15" y="290" width="10" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="cQni9ctdwEXNqDFrvuiN-18" value="1. 减少游戏次数" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.1;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.07;exitDx=0;exitDy=0;exitPerimeter=0;comic=1;" edge="1" parent="1" source="cQni9ctdwEXNqDFrvuiN-7" target="cQni9ctdwEXNqDFrvuiN-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="250" y="160" as="sourcePoint"/>
+            <mxPoint x="330" y="160" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQni9ctdwEXNqDFrvuiN-19" value="2. 游戏参数" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.1;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.1;exitY=0.352;exitDx=0;exitDy=0;exitPerimeter=0;comic=1;" edge="1" parent="1" source="cQni9ctdwEXNqDFrvuiN-7" target="cQni9ctdwEXNqDFrvuiN-10">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="250" y="250" as="sourcePoint"/>
+            <mxPoint x="330" y="250" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQni9ctdwEXNqDFrvuiN-16" value="3.返回游戏结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.2;exitY=0.863;exitDx=0;exitDy=0;exitPerimeter=0;comic=1;entryX=0.9;entryY=0.542;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cQni9ctdwEXNqDFrvuiN-10" target="cQni9ctdwEXNqDFrvuiN-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="320" as="sourcePoint"/>
+            <mxPoint x="250" y="320" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQni9ctdwEXNqDFrvuiN-21" value="4. 添加可抽奖次数" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.1;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.8;exitY=0.679;exitDx=0;exitDy=0;exitPerimeter=0;comic=1;" edge="1" parent="1" source="cQni9ctdwEXNqDFrvuiN-7" target="cQni9ctdwEXNqDFrvuiN-12">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="250" y="370" as="sourcePoint"/>
+            <mxPoint x="330" y="370" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
